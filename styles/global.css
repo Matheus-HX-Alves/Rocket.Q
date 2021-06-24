@@ -29,7 +29,8 @@ html{
 }
 
 body{
-    width: 100vw;
+    display: flex;
+    
     height: 100vh;
 }
 
@@ -59,7 +60,6 @@ body,textarea,input,button{
 
 /* Input and buttons */
 input, button, .button{
-    height:5rem;
     border-radius: .8rem;
 }
 
