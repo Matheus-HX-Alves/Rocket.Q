@@ -100,16 +100,12 @@ button.button-red{
     background-color: var(--Red);
     color: var(--White);
     border-radius:.8rem;
-    
-    height:5rem;
 }
 
 button.button-grey{
     background-color: var(--Grey-light);
     color: var(--Grey-dark);
     border-radius:.8rem;
-    
-    height:5rem;
 }
 
 

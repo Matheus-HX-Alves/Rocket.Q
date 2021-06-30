@@ -17,7 +17,7 @@
 }
 
 
-.modal-wrapper {
+.modal-wrapper{
     position:fixed;
     top: 0;
     left: 0;
@@ -65,14 +65,14 @@
 }
 
 .modal-wrapper .modal form{
-    width: 30.2rem;
+    width: 100%;
     margin: 0 auto;
 }
 
 
 .modal-wrapper .modal form input{
     color: var(--Black);
-    width:100%;
+    width: 30.2rem;
     padding: 1.3rem 1.6rem;
     border: 2px solid var(--Blue);
     outline: none;
@@ -80,13 +80,17 @@
 }
 
 .modal-wrapper .modal form .buttons{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     margin-top: 4rem;
-    width: 100%;
 } 
 
 .modal-wrapper .modal form .buttons button{
     padding: 1.3rem 3.2rem;
+    height:5rem;
+} 
+
+.modal-wrapper .modal form .buttons button:nth-child(1){
+    margin-right:0.5rem;
 } 
